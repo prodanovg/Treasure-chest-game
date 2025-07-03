@@ -20,8 +20,6 @@ func _enter_tree():
 		s.owner = get_tree().edited_scene_root
 		addedHead = true
 
-## PLAYER MOVMENT SCRIPT ##
-###########################
 
 @export_category("Mouse Capture")
 @export var CAPTURE_ON_START := true
